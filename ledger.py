@@ -8,7 +8,7 @@ class Ledger:
         self.bills = []
 
     def add_bill(self,bill):
-         self.bills.append(bill)
+        self.bills.append(bill)
 
     def list_all(self):
         for bill in self.bills:
